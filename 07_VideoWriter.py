@@ -3,9 +3,9 @@ import cv2, sys
 cap = cv2.VideoCapture('data/vtest.avi')
 
 frame_size = ( int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)) )
-fourcc = cv2.VideoWriter_fourcc(*'XVID') # ('X', 'V', 'I', 'D')
+fourcc = cv2.VideoWriter_fourcc(*'mp4v') # ('M', 'P', 'E', 'G')
 
-out1 = cv2.VideoWriter('output/record123.avi', fourcc, 20.0, frame_size)
+out1 = cv2.VideoWriter('output/record1234.mp4', fourcc, 20.0, frame_size)
 
 # if cap:
 #     sys.exit()
