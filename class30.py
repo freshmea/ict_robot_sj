@@ -26,7 +26,7 @@ src1_bg = cv2.bitwise_and(roi, roi, mask= mask)
 src2_fg = cv2.bitwise_and(src2, src2, mask= mask_inv)
 dst = cv2.bitwise_or(src1_bg, src2_fg)
 roi[:,:] = dst
-# src1[:rows,:cols] = roi
+# src1[:rows,:cols] = dst
 cv2.imshow('a', src1_bg)
 cv2.imshow('b', src2_fg)
 cv2.imshow('c', roi)
