@@ -7,6 +7,17 @@ src2 = cv2.imread('data/opencv_logo.png')
 rows, cols, channels =  src2.shape
 roi = src1[:rows,:cols]
 
+
+print(cv2.bitwise_or(np.array([1]), np.array([1])))
+print(cv2.bitwise_or(np.array([1]), np.array([2])))
+print(cv2.bitwise_or(np.array([0]), np.array([1])))
+print(cv2.bitwise_or(np.array([1]), np.array([0])))
+
+print(cv2.bitwise_and(np.array([1]), np.array([1])))
+print(cv2.bitwise_and(np.array([0]), np.array([1])))
+print(cv2.bitwise_and(np.array([1]), np.array([0])))
+print(cv2.bitwise_and(np.array([1]), np.array([2])))
+
 gray = cv2.cvtColor(src2, cv2.COLOR_BGR2GRAY)
 ret, mask = cv2.threshold(gray, 160, 255, cv2.THRESH_BINARY)
 mask_inv = cv2.bitwise_not(mask)
