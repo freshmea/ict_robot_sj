@@ -13,8 +13,9 @@ while True:
     t += 1
     cv2.accumulate(frame, acc_bgr)
     avr_bgr = acc_bgr/t
+    print(type(avr_bgr), avr_bgr.shape, avr_bgr.dtype)
     dst_bgr = cv2.convertScaleAbs(avr_bgr)
-    
+    print(type(dst_bgr), dst_bgr.shape, dst_bgr.dtype)
     cv2.imshow('frame', frame)
     cv2.imshow('acc', dst_bgr)
     key = cv2.waitKey(20)
