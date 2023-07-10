@@ -9,6 +9,13 @@
   * videoCapture 로 읽을 때 에러가 남 
   * mp4 파일을 videoCapture로 읽을 때는 에러가 나지 않음. - 'XVID' -> 'mp4v' 로 저장한 mp4 파일은 읽히지 않음.
 
+* 주미 파이썬 파일 해석
+  * https://roomedia.tistory.com/entry/72%EC%9D%BC%EC%B0%A8-%EC%A3%BC%EB%AF%B8-%EC%A3%BC%ED%96%89%EB%AA%A8%EB%93%9C-%EC%88%98%EC%A0%95-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%A3%BC%ED%96%89-%EB%B0%A9%ED%96%A5-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0
+
+
+
+
+
 * 영상 파일 링크
 
 
