@@ -1,5 +1,5 @@
-import cv2 
-import numpy as np 
+import cv2
+import numpy as np
 
 img = cv2.imread('data/lena.jpg')
 img2 = cv2.imread('data/lena.jpg',0)
